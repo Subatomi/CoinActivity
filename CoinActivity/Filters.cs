@@ -24,7 +24,7 @@ namespace CoinActivity
 		public double Y;
 	}
 
-    public class Coins
+    public class Coin
     {
         public const float PESO_5 = 5;
         public const float PESO_1 = 1;
@@ -32,7 +32,7 @@ namespace CoinActivity
         public const float CENT_10 = .10f;
         public const float CENT_5 = .05f;
 
-        public static void CountCoin(Bitmap bmp, ref Label countLabel, ref Label valueLabel)
+        public static void Count(Bitmap bmp, ref Label countLabel, ref Label valueLabel)
         {
             int count = 0; 
             float value = 0; 

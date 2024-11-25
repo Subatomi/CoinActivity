@@ -29,7 +29,7 @@ namespace CoinActivity
         {
             Bitmap m = (Bitmap)pictureBox1.Image.Clone();
             BitmapFilter.Binary(m, 200);
-            Coins.CountCoin(m, ref label1, ref label2);
+            Coin.Count(m, ref label1, ref label2);
             pictureBox2.Image = m;
 
 
